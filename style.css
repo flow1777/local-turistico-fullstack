@@ -7,20 +7,29 @@
 }
 
 body {
-
-}
-
-.next-trip {
-  margin-top: 88px;
+  background-color: #F5F4F0;
 }
 
 #trips {
   box-sizing: border-box;
+  margin-top: 88px;
   margin-left: 80px;
 }
 
-#trips img {
+.head-title {
+  color: #E1624F;
+}
 
+#f1-image {
+  border-radius: 28px;
+  height: 660px;
+  width: 1120px;
+}
+
+#trips img {
+  border-radius: 28px;
+  height: 350px;
+  width: 1120px;
 }
 
 #trips h1 {
@@ -29,4 +38,33 @@ body {
 
 footer {
   text-align: center;
+  margin-top: 65px;
+  margin-bottom: 48px;
+}
+
+#li-1 {
+  color: #591B98;
+}
+
+#li-2 {
+  color: #E5245E;
+}
+
+#li-3 {
+  color: #E95E10;
+}
+
+#first-trip li {
+  margin-bottom: 40px;
+  color: #0C51A7;
+}
+
+#second-trip li {
+  margin-bottom: 40px;
+  color: #0C51A7;
+}
+
+#third-trip li {
+  margin-bottom: 40px;
+  color: #0C51A7;
 }
